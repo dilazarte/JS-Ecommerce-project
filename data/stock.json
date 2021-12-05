@@ -1,0 +1,17 @@
+[
+    {"id":1,"nombre":"Caja de Chocolates","precio":1100,"img":"img/01.jpg","cantidad":1},
+    {"id":2,"nombre":"Caja de Brownies","precio":1550,"img":"img/02.jpg","cantidad":1},
+    {"id":3,"nombre":"Caja de Cupcakes","precio":1400,"img":"img/03.jpg","cantidad":1},
+    {"id":4,"nombre":"Tarta de Cheescake","precio":2000,"img":"img/04.jpg","cantidad":1},
+    {"id":5,"nombre":"Torta Imperial Ruso","precio":2500,"img":"img/05.jpg","cantidad":1},
+    {"id":6,"nombre":"Caja de Muffins","precio":1870,"img":"img/06.jpg","cantidad":1},
+    {"id":7,"nombre":"Turron de Quaker","precio":1000,"img":"img/07.jpg","cantidad":1},
+    {"id":8,"nombre":"Torta de Frutilla","precio":2500,"img":"img/08.jpg","cantidad":1},
+    {"id":9,"nombre":"Lemon Pie","precio":1400,"img":"img/09.jpg","cantidad":1},
+    {"id":10,"nombre":"Charlotte Cake","precio":1800,"img":"img/10.jpg","cantidad":1},
+    {"id":11,"nombre":"Pastafrola de Membrillo","precio":800,"img":"img/11.jpg","cantidad":1},
+    {"id":12,"nombre":"Alfajorcitos de Maicena","precio":650,"img":"img/12.jpg","cantidad":1},
+    {"id":13,"nombre":"Tartaletas de Chocolate","precio":900,"img":"img/13.jpg","cantidad":1},
+    {"id":14,"nombre":"Caja Volcan de Manjar de chocolates","precio":1250,"img":"img/14.jpg","cantidad":1},
+    {"id":15,"nombre":"Caja de Donas Surtidas","precio":1200,"img":"img/15.jpg","cantidad":1}
+]
