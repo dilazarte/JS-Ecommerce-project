@@ -131,7 +131,7 @@ h3 {
     background-color: #fff;
 }
 .img-nosotros{
-    background-image: url("/img/foto.jpg");
+    background-image: url("./img/foto.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
