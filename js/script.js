@@ -242,7 +242,7 @@ const pagarMP = async () => {
         body: JSON.stringify({
             items: comprarProductos,
             back_urls: {
-                success: 'http://127.0.0.1:5500/procesado/close.html'
+                success: 'https://dilazarte.github.io/dilazarte-js-proyectofinal/procesado/close.html'
             }
         })
     })
