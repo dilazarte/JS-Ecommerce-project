@@ -25,7 +25,7 @@ fetch('data/stock.json')
         productos.push(obj);
         const seccionCarrito = $("#seccion-productos"); //div contenedir de los productos listados en pantalla
         seccionCarrito.append(`
-        <div class="card my-2 card-set" style="width: 15rem;">
+        <div class="card my-2 card-set" style="width: 14rem;">
             <div class="img-container"><img src="${obj.img}" class="card-img-top" alt="${obj.nombre}"></div>
             <div class="card-body">
                 <h5 class="card-title">${obj.nombre}</h5>
@@ -172,6 +172,13 @@ function confirmarCompra() {
     carrito.splice(0, carrito.length);
     localStorage.setItem("productos", "");
     pintarCarrito(carrito);
+    modalContainer.toggleClass("visible")
+    carritoContainer.toggleClass("carritoVisible")
+    for(obj of body) {
+        if (obj != body[5]) {
+            $(obj).css({"filter": "blur(0)"});
+        }
+    }
 }
 
 //Aca llamo a pintar carrito y le paso por parametro 'carrito' si tiene algo el localStorage lo parsea y lo recupera.-
